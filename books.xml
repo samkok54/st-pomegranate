@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book_store>
+  <book>
+    <name>Huck</name>
+    <author>Mark Millar</author>
+    <type>Graphic Novels</type>
+    <ISBN>9781632157294</ISBN>
+    <price>$14.99</price>
+    <publisher>Image Comics</publisher>
+    <page>160</page>
+  </book>
+  <book>
+    <name>Jupiter's Circle Volume 2</name>
+    <author>Mark Millar</author>
+    <type>Graphic Novels</type>
+    <ISBN>9781632157072</ISBN>
+    <price>$14.07</price>
+    <publisher>Image Comics</publisher>
+    <page>152</page>
+  </book>
+  <book>
+    <name>The Nightingale</name>
+    <author>Kristin Hannah</author>
+    <type>Architecture</type>
+    <ISBN>9781535284936</ISBN>
+    <price>$6.99</price>
+    <publisher>CreateSpace Independent Publishing Platform</publisher>
+    <page>72</page>
+  </book>
+  <book>
+    <name>Fantastic Cities</name>
+    <author>Steve McDonald</author>
+    <type>Architecture</type>
+    <ISBN>9781452149578</ISBN>
+    <price>$11.99</price>
+    <publisher>Chronicle Books</publisher>
+    <page>60</page>
+  </book>
+  <book>
+    <name>Modern Architecture Since 1900</name>
+    <author>William J.R. Curtis</author>
+    <type>History</type>
+    <ISBN>9780714833569</ISBN>
+    <price>$24.51</price>
+    <publisher>Phaidon Press</publisher>
+    <page>736</page>
+  </book>
+  <book>
+    <name>Yves Saint Laurent</name>
+    <author>Florence Chenoune</author>
+    <type>Graphic Design</type>
+    <ISBN>9780810996083</ISBN>
+    <price>$47.48</price>
+    <publisher>Harry N. Abrams</publisher>
+    <page>388</page>
+  </book>
+  <book>
+    <name>Chanel: The Vocabulary of Style</name>
+    <author>J&#xE9;r&#xF4;me Gautier</author>
+    <type>Graphic Design</type>
+    <ISBN>9780300175660</ISBN>
+    <price>$58.99</price>
+    <publisher>Yale University Press</publisher>
+    <page>304</page>
+  </book>
+  <book>
+    <name>Born to Run</name>
+    <author>Bruce Springsteen</author>
+    <type>Music</type>
+    <ISBN>9781501141515</ISBN>
+    <price>$19.89</price>
+    <publisher>Simon &amp; Schuster</publisher>
+    <page>528</page>
+  </book>
+  <book>
+    <name>Breaking Through</name>
+    <author>Francisco Jim&#xE9;nez</author>
+    <type>Biographies</type>
+    <ISBN>9780618342488</ISBN>
+    <price>$7.99</price>
+    <publisher>HMH Books for Young Readers</publisher>
+    <page>208</page>
+  </book>
+  <book>
+    <name>Accounting Information Systems</name>
+    <author>Marshall B. Romney</author>
+    <type>Computer and Technology</type>
+    <ISBN>9780133428537</ISBN>
+    <price>$59.99</price>
+    <publisher>Pearson</publisher>
+    <page>744</page>
+  </book>
+  <book>
+    <name>Polar Opposites</name>
+    <author>Erik Brooks</author>
+    <type>Children's Books</type>
+    <ISBN>9780761456858</ISBN>
+    <price>$16.99</price>
+    <publisher>Two Lions </publisher>
+    <page>32</page>
+  </book>
+  <book>
+    <name>The Miniature World of Marvin &amp; James </name>
+    <author> Elise Broach</author>
+    <type>Children's Books</type>
+    <ISBN>9781250069580</ISBN>
+    <price> $5.06</price>
+    <publisher>Square Fish</publisher>
+    <page>128</page>
+  </book>
+  <book>
+    <name>Three Sisters, Three Queens</name>
+    <author> Philippa Gregory</author>
+    <type> Fiction , Romance</type>
+    <ISBN>9781476758572</ISBN>
+    <price>$27.99</price>
+    <publisher>Touchstone</publisher>
+    <page>576</page>
+  </book>
+  <book>
+    <name>Harry Potter and the Sorcerer's Stone</name>
+    <author>J.K. Rowling</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9780439708180</ISBN>
+    <price>$10.99</price>
+    <publisher>Scholastic</publisher>
+    <page>309</page>
+  </book>
+  <book>
+    <name>Harry Potter and the Cursed Child</name>
+    <author>J.K. Rowling</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9781338099133</ISBN>
+    <price>$29.99</price>
+    <publisher>Arthur A. Levine Books</publisher>
+    <page>320</page>
+  </book>
+  <book>
+    <name>Uninvited: Living Loved When You Feel Less Than, Left Out, and Lonely</name>
+    <author>Lysa TerKeurst</author>
+    <type>Religion Spirituality</type>
+    <ISBN>9781400205875</ISBN>
+    <price>$16.99</price>
+    <publisher>Thomas Nelson</publisher>
+    <page>288</page>
+  </book>
+  <book>
+    <name>Red Queen</name>
+    <author>Victoria Aveyard</author>
+    <type>Fiction, Mysteries Thrillers</type>
+    <ISBN>9780062310644</ISBN>
+    <price>$10.99</price>
+    <publisher>HarperTeen</publisher>
+    <page>416</page>
+  </book>
+  <book>
+    <name>The Selection</name>
+    <author>Kiera Cass</author>
+    <type> Fiction , Romance</type>
+    <ISBN>9780062059970</ISBN>
+    <price>$9.99</price>
+    <publisher>HarperTeen</publisher>
+    <page>352</page>
+  </book>
+  <book>
+    <name>Hillbilly Elegy: A Memoir of a Family and Culture in Crisis</name>
+    <author>J. D. Vance</author>
+    <type>Politics Social Sciences</type>
+    <ISBN>9780062300546</ISBN>
+    <price>$27.99</price>
+    <publisher>Harper</publisher>
+    <page>272</page>
+  </book>
+  <book>
+    <name>The Siren</name>
+    <author>Kiera Cass</author>
+    <type>Fiction , fantasy romance</type>
+    <ISBN>9780008157937</ISBN>
+    <price>$23.99</price>
+    <publisher>HarperCollins</publisher>
+    <page>332</page>
+  </book>
+  <book>
+    <name>Contested Conventions</name>
+    <author>Melvin Yazawa</author>
+    <type>History</type>
+    <ISBN>9781421420264</ISBN>
+    <price>$25.00</price>
+    <publisher>Johns Hopkins University Press</publisher>
+    <page>312</page>
+  </book>
+  <book>
+    <name>Who Is Malala Yousafzai?  (Who Was...?)</name>
+    <author>Dinah Brown</author>
+    <type>Children's Books , Facts of Life</type>
+    <ISBN>9780448489377</ISBN>
+    <price>$5.99</price>
+    <publisher>Grosset Dunlap</publisher>
+    <page>112</page>
+  </book>
+  <book>
+    <name>Who Is Michelle Obama? (Who Was...?)</name>
+    <author>Megan Stine</author>
+    <type>Children's Books , Facts of Life</type>
+    <ISBN>9780448478630</ISBN>
+    <price>$5.99</price>
+    <publisher>Grosset Dunlap</publisher>
+    <page>112</page>
+  </book>
+  <book>
+    <name>Who Is Barack Obama? (Who Was...?)</name>
+    <author>Roberta Edwards</author>
+    <type>Children's Books , Facts of Life</type>
+    <ISBN>9780448453309</ISBN>
+    <price>$5.99</price>
+    <publisher>Grosset Dunlap</publisher>
+    <page>112</page>
+  </book>
+  <book>
+    <name>Who Was Neil Armstrong? (Who Was...?)</name>
+    <author>Roberta Edwards</author>
+    <type>Children's Books , Facts of Life</type>
+    <ISBN>9780448449074</ISBN>
+    <price>$5.99</price>
+    <publisher>Grosset Dunlap</publisher>
+    <page>112</page>
+  </book>
+  <book>
+    <name>The Land of Stories: An Author's Odyssey</name>
+    <author>Chris Colfer</author>
+    <type>Children's Books , Fantasy Magic</type>
+    <ISBN>9780316383295</ISBN>
+    <price>$19.99</price>
+    <publisher>Little, Brown Books for Young Readers</publisher>
+    <page>464</page>
+  </book>
+  <book>
+    <name>The Land of Stories: Beyond the Kingdoms</name>
+    <author>Chris Colfer</author>
+    <type>Children's Books , Fantasy Magic</type>
+    <ISBN>9780316406871</ISBN>
+    <price>$8.99</price>
+    <publisher>Little, Brown Books for Young Readers</publisher>
+    <page>464</page>
+  </book>
+  <book>
+    <name>The Land of Stories: A Grimm Warning</name>
+    <author>Chris Colfer</author>
+    <type>Children's Books , Fantasy Magic</type>
+    <ISBN>9780316406826</ISBN>
+    <price>$9.99</price>
+    <publisher>Little, Brown Books for Young Readers</publisher>
+    <page>464</page>
+  </book>
+  <book>
+    <name>The Land of Stories: The Wishing Spell</name>
+    <author>Chris Colfer</author>
+    <type>Children's Books , Fantasy Magic</type>
+    <ISBN>9780316201568</ISBN>
+    <price>$9.99</price>
+    <publisher>Little, Brown Books for Young Readers</publisher>
+    <page>464</page>
+  </book>
+  <book>
+    <name>The Night Circus</name>
+    <author> Erin Morgenstern</author>
+    <type> Fiction,Mystery, Thriller Suspense</type>
+    <ISBN>9780307744432</ISBN>
+    <price>$15.00</price>
+    <publisher>Anchor Books</publisher>
+    <page>516</page>
+  </book>
+  <book>
+    <name>Trials of Apollo, The Book Two The Dark Prophecy</name>
+    <author>Rick Riordan</author>
+    <type>Children's Books,Fairy Tales, Folk Tales Myths</type>
+    <ISBN>9781484746424</ISBN>
+    <price>$19.99</price>
+    <publisher>Disney-Hyperion</publisher>
+    <page>320</page>
+  </book>
+  <book>
+    <name>Magnus Chase and the Gods of Asgard, Book 1: The Sword of Summer</name>
+    <author>Rick Riordan</author>
+    <type>Children's Books,Fairy Tales, Folk Tales Myths</type>
+    <ISBN>9781423160915</ISBN>
+    <price>$19.99</price>
+    <publisher>Disney-Hyperion</publisher>
+    <page>512</page>
+  </book>
+  <book>
+    <name>Magnus Chase and the Gods of Asgard, Book 2 The Hammer of Thor</name>
+    <author>Rick Riordan</author>
+    <type>Children's Books,Fairy Tales, Folk Tales Myths</type>
+    <ISBN>9781423160922</ISBN>
+    <price>$19.99</price>
+    <publisher>Disney-Hyperion</publisher>
+    <page>480</page>
+  </book>
+  <book>
+    <name>Who Was Marie Antoinette?</name>
+    <author>Dana Meachen Rau</author>
+    <type>Children's Books , Facts of Life</type>
+    <ISBN>9780448483108</ISBN>
+    <price> $5.20</price>
+    <publisher>Grosset Dunlap</publisher>
+    <page>112</page>
+  </book>
+  <book>
+    <name>Carve the Mark</name>
+    <author>Veronica Roth</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9780062348630</ISBN>
+    <price>$22.99</price>
+    <publisher>Katherine Tegen Books</publisher>
+    <page>480</page>
+  </book>
+  <book>
+    <name>Percy Jackson's Greek Gods</name>
+    <author>Rick Riordan</author>
+    <type>Children's Books,Fairy Tales, Folk Tales Myths</type>
+    <ISBN>9781484712375</ISBN>
+    <price>$12.99</price>
+    <publisher>Disney-Hyperion</publisher>
+    <page>416</page>
+  </book>
+  <book>
+    <name>Percy Jackson's Greek Heroes</name>
+    <author>Rick Riordan</author>
+    <type>Children's Books,Fairy Tales, Folk Tales Myths</type>
+    <ISBN>9781423183655</ISBN>
+    <price>$24.99</price>
+    <publisher>Disney-Hyperion</publisher>
+    <page>416</page>
+  </book>
+  <book>
+    <name>The Shadow Queen</name>
+    <author>C. J. Redwine</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9780062360243</ISBN>
+    <price>$17.99</price>
+    <publisher>Balzer + Bray</publisher>
+    <page>400</page>
+  </book>
+  <book>
+    <name>World After</name>
+    <author>Susan Ee</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9781477817285</ISBN>
+    <price>$7.99</price>
+    <publisher>Skyscape</publisher>
+    <page>320</page>
+  </book>
+  <book>
+    <name>The Last Musketeer</name>
+    <author>Stuart Gibbs</author>
+    <type>Children's Books ,Action , Adventure</type>
+    <ISBN>9780062048394</ISBN>
+    <price>$6.99</price>
+    <publisher>HarperCollins</publisher>
+    <page>272</page>
+  </book>
+  <book>
+    <name>Of Fire and Stars</name>
+    <author>Audrey Coulthurst</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9780062433251</ISBN>
+    <price>$17.99</price>
+    <publisher>Balzer + Bray</publisher>
+    <page>400</page>
+  </book>
+  <book>
+    <name>The Red Pyramid</name>
+    <author>Rick Riordan</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9781423113454</ISBN>
+    <price>$9.99</price>
+    <publisher>Disney-Hyperion</publisher>
+    <page>544</page>
+  </book>
+  <book>
+    <name>King of Ithaka</name>
+    <author>Tracy Barrett</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9780312551483</ISBN>
+    <price>$11.99</price>
+    <publisher>Square Fish</publisher>
+    <page>272</page>
+  </book>
+  <book>
+    <name>The Beast of Blackslope (Sherlock Files)</name>
+    <author>Tracy Barrett</author>
+    <type>Children's Books , Mysteries ,Detectives</type>
+    <ISBN>9780312659189</ISBN>
+    <price> $7.99</price>
+    <publisher>Square Fish</publisher>
+    <page>192</page>
+  </book>
+  <book>
+    <name>The 100-Year-Old Secret (Sherlock Files)</name>
+    <author>Tracy Barrett</author>
+    <type>Children's Books, Mysteries, Detectives</type>
+    <ISBN>9780312602123</ISBN>
+    <price>$6.07</price>
+    <publisher>Square Fish</publisher>
+    <page>176</page>
+  </book>
+  <book>
+    <name>The Missing Heir (Sherlock Files)</name>
+    <author>Tracy Barrett</author>
+    <type>Children's Books, Mysteries, Detectives</type>
+    <ISBN>9781250004802</ISBN>
+    <price> $8.99</price>
+    <publisher>Square Fish</publisher>
+    <page>192</page>
+  </book>
+  <book>
+    <name>The Looking Glass Wars</name>
+    <author>Frank Beddor</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9780142409411</ISBN>
+    <price>$9.99</price>
+    <publisher>Speak</publisher>
+    <page>400</page>
+  </book>
+  <book>
+    <name>Nobody's Princess (Princesses of Myth)</name>
+    <author>Esther Friesner</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9780375875298</ISBN>
+    <price> $8.99</price>
+    <publisher>Random House Books for Young Readers</publisher>
+    <page>336</page>
+  </book>
+  <book>
+    <name>The Egypt Game</name>
+    <author>Zilpha Keatley Snyder</author>
+    <type>Children's Books, Mysteries, Detectives</type>
+    <ISBN>9781416990512</ISBN>
+    <price>$7.99</price>
+    <publisher>Atheneum Books for Young Readers</publisher>
+    <page>240</page>
+  </book>
+  <book>
+    <name>Chinese Cinderella</name>
+    <author>Adeline Yen Mah</author>
+    <type>Children's Books , Facts of Life</type>
+    <ISBN>9780385740074</ISBN>
+    <price>$9.99</price>
+    <publisher>Ember</publisher>
+    <page>240</page>
+  </book>
+  <book>
+    <name>The Thousandth Floor</name>
+    <author>Katharine McGee</author>
+    <type> Fiction,Mystery, Thriller Suspense</type>
+    <ISBN>9780062418593</ISBN>
+    <price>$18.99</price>
+    <publisher>HarperCollins</publisher>
+    <page>448</page>
+  </book>
+  <book>
+    <name>Space Case (Moon Base Alpha)</name>
+    <author>Stuart Gibbs</author>
+    <type>Children's Books , Facts of Life</type>
+    <ISBN>9781442494879</ISBN>
+    <price>$7.99</price>
+    <publisher>Simon and Schuster Book</publisher>
+    <page>368</page>
+  </book>
+  <book>
+    <name>Stealing Snow</name>
+    <author>Danielle Paige</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9781681190761</ISBN>
+    <price>$18.99</price>
+    <publisher>Bloomsbury USA Childrens</publisher>
+    <page>384</page>
+  </book>
+  <book>
+    <name>A Crown of Wishes</name>
+    <author>Roshani Chokshi</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9781250085498</ISBN>
+    <price>$18.99</price>
+    <publisher>St. Martin's Griffin</publisher>
+    <page>352</page>
+  </book>
+  <book>
+    <name>Frost Like Night (Snow Like Ashes)</name>
+    <author>Sara Raasch</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9780062286987</ISBN>
+    <price>$17.99</price>
+    <publisher>Balzer + Bray</publisher>
+    <page>496</page>
+  </book>
+  <book>
+    <name>Where Is the Amazon (Where Is...?)</name>
+    <author>Sarah Fabiny</author>
+    <type>Children's Books , Facts of Life</type>
+    <ISBN>9780448488264</ISBN>
+    <price>$5.99</price>
+    <publisher>Grosset Dunlap</publisher>
+    <page>112</page>
+  </book>
+  <book>
+    <name>Panda-monium (FunJungle)</name>
+    <author>Stuart Gibbs</author>
+    <type>Children's Books,Action ,Adventure</type>
+    <ISBN>9781481445672</ISBN>
+    <price>$16.99</price>
+    <publisher>Simon and Schuster Book</publisher>
+    <page>352</page>
+  </book>
+  <book>
+    <name>Six of Crows</name>
+    <author>Leigh Bardugo</author>
+    <type>Children's Books,Action ,Adventure</type>
+    <ISBN>9781627792127</ISBN>
+    <price>$18.99</price>
+    <publisher>Henry Holt and Co. (BYR)</publisher>
+    <page>480</page>
+  </book>
+  <book>
+    <name>Crown of Midnight (Throne of Glass 2)</name>
+    <author>Sarah J. Maas</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9781619630642</ISBN>
+    <price>$10.99</price>
+    <publisher>Bloomsbury USA Childrens</publisher>
+    <page>448</page>
+  </book>
+  <book>
+    <name>Throne of Glass</name>
+    <author>Sarah J. Maas</author>
+    <type>Science Fiction Fantasy</type>
+    <ISBN>9781619630345</ISBN>
+    <price>$10.99</price>
+    <publisher>Bloomsbury USA Childrens</publisher>
+    <page>432</page>
+  </book>
+</book_store>

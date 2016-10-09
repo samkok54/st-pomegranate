@@ -1,0 +1,2 @@
+module RambasHelper
+end
