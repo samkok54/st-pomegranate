@@ -21,13 +21,13 @@ class RumbasController < ApplicationController
       valid += params[:type] +" and "
     end
     if (params[:by] & 0b1000) > 0
-      valid += params[:ISBN] +" and "
+      valid += params[:publisher] +" and "
     end
     if (params[:by] & 0b10000) > 0
-      valid += params[:price] +" and "
+      valid += params[:ISBN] +" and "
     end
     if (params[:by] & 0b100000) > 0
-      valid += params[:publisher] +" and "
+      valid += params[:price] +" and "
     end
     if (params[:by] & 0b1000000) > 0
       valid += params[:page] +" and "
@@ -37,8 +37,8 @@ class RumbasController < ApplicationController
 
   soap_action "search",
               :args   => {:by => :integer, :name => :string, :author => :string,
-                          :type => :string, :ISBN => :string,
-                          :price => :string, :publisher => :string,
+                          :type => :string, :publisher => :string,
+                          :ISBN => :string, :price => :string,
                           :page => :string},
               :return   => :string
   def search
@@ -58,8 +58,8 @@ class RumbasController < ApplicationController
 
   soap_action "remove",
               :args   => {:by => :integer, :name => :string, :author => :string,
-                          :type => :string, :ISBN => :string,
-                          :price => :string, :publisher => :string,
+                          :type => :string, :publisher => :string,
+                          :ISBN => :string, :price => :string,
                           :page => :string},
               :return   => :integer # number of removed object
   def remove
@@ -79,9 +79,9 @@ class RumbasController < ApplicationController
 
   soap_action "add",
               :args   => {:name => :string, :author => :string,
-                          :type => :string, :ISBN => :integer,
-                          :price => :integer, :publisher => :string,
-                          :page => :integer},
+                          :type => :string, :publisher => :string,
+                          :ISBN => :string, :price => :string,
+                          :page => :string},
               :return   => :integer
   def add
     begin
