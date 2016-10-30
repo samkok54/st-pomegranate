@@ -24,7 +24,7 @@ class RumbasController < ApplicationController
       valid += params[:publisher] +" and "
     end
     if (params[:by] & 0b10000) > 0
-      valid += params[:ISBN] +" and "
+      valid += params[:isbn] +" and "
     end
     if (params[:by] & 0b100000) > 0
       valid += params[:price] +" and "
@@ -38,11 +38,12 @@ class RumbasController < ApplicationController
   soap_action "search",
               :args   => {:by => :integer, :name => :string, :author => :string,
                           :type => :string, :publisher => :string,
-                          :ISBN => :string, :price => :string,
+                          :isbn => :string, :price => :string,
                           :page => :string},
               :return   => :string
   def search
     valid = parse_valid(params)
+    print valid
     choose = "<result>"+$db.search("//book["+valid+"]").to_s+"</result>"
     render :soap => choose
   end
@@ -59,7 +60,7 @@ class RumbasController < ApplicationController
   soap_action "remove",
               :args   => {:by => :integer, :name => :string, :author => :string,
                           :type => :string, :publisher => :string,
-                          :ISBN => :string, :price => :string,
+                          :isbn => :string, :price => :string,
                           :page => :string},
               :return   => :integer # number of removed object
   def remove
@@ -80,7 +81,7 @@ class RumbasController < ApplicationController
   soap_action "add",
               :args   => {:name => :string, :author => :string,
                           :type => :string, :publisher => :string,
-                          :ISBN => :string, :price => :string,
+                          :isbn => :string, :price => :string,
                           :page => :string},
               :return   => :integer
   def add
@@ -104,8 +105,8 @@ class RumbasController < ApplicationController
       page = Nokogiri::XML::Node.new "page", $db
       page.content = params[:page]
       page.parent = book
-      isbn = Nokogiri::XML::Node.new "ISBN", $db
-      isbn.content = params[:ISBN]
+      isbn = Nokogiri::XML::Node.new "isbn", $db
+      isbn.content = params[:isbn]
       isbn.parent = book
       # book.parent = $book_store
       last_book = $db.xpath("//book").last
@@ -119,92 +120,6 @@ class RumbasController < ApplicationController
     end
   end
 
-  # soap_action "plus",
-  #             :args   => {:a => :integer, :b => :integer},
-  #             :return   => :integer
-  # def plus
-  #   render :soap => (params[:a] + params[:b])
-  # end
-  #
-  # soap_action "integer_to_string",
-  #             :args   => :integer,
-  #             :return => :string
-  # def integer_to_string
-  #   render :soap => params[:value].to_s
-  # end
-  #
-  # soap_action "concat",
-  #             :args   => { :a => :string, :b => :string },
-  #             :return => :string
-  # def concat
-  #   render :soap => (params[:a] + params[:b])
-  # end
-  #
-  # # Complex structures
-  # soap_action "AddCircle",
-  #             :args   => { :circle => { :center => { :x => :integer,
-  #                                                    :y => :integer },
-  #                                       :radius => :double } },
-  #             :return => nil, # [] for wash_out below 0.3.0
-  #             :to     => :add_circle
-  # def add_circle
-  #   circle = params[:circle]
-  #
-  #   raise SOAPError, "radius is too small" if circle[:radius] < 3.0
-  #
-  #   Circle.new(circle[:center][:x], circle[:center][:y], circle[:radius])
-  #
-  #   render :soap => nil
-  # end
-  #
-  # # Arrays
-  # soap_action "integers_to_boolean",
-  #             :args => { :data => [:integer] },
-  #             :return => [:boolean]
-  # def integers_to_boolean
-  #   render :soap => params[:data].map{|i| i > 0}
-  # end
-  #
-  # # Params from XML attributes;
-  # # e.g. for a request to the 'AddCircle' action:
-  # #   <soapenv:Envelope>
-  # #     <soapenv:Body>
-  # #       <AddCircle>
-  # #         <Circle radius="5.0">
-  # #           <Center x="10" y="12" />
-  # #         </Circle>
-  # #       </AddCircle>
-  # #     </soapenv:Body>
-  # #   </soapenv:Envelope>
-  # soap_action "AddCircle",
-  #             :args   => { :circle => { :center => { :@x => :integer,
-  #                                                    :@y => :integer },
-  #                                       :@radius => :double } },
-  #             :return => nil, # [] for wash_out below 0.3.0
-  #             :to     => :add_circle
-  # def add_circle
-  #   circle = params[:circle]
-  #   Circle.new(circle[:center][:x], circle[:center][:y], circle[:radius])
-  #
-  #   render :soap => nil
-  # end
-  #
-  # # With a customised input tag name, in case params are wrapped;
-  # # e.g. for a request to the 'IntegersToBoolean' action:
-  # #   <soapenv:Envelope>
-  # #     <soapenv:Body>
-  # #       <MyRequest>  <!-- not <IntegersToBoolean> -->
-  # #         <Data>...</Data>
-  # #       </MyRequest>
-  # #     </soapenv:Body>
-  # #   </soapenv:Envelope>
-  # soap_action "integers_to_boolean",
-  #             :args => { :my_request => { :data => [:integer] } },
-  #             :as => 'MyRequest',
-  #             :return => [:boolean]
-
-  # You can use all Rails features like filtering, too. A SOAP controller
-  # is just like a normal controller with a special routing.
   before_filter :dump_parameters
   def dump_parameters
     Rails.logger.debug params.inspect
